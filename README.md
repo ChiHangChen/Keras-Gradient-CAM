@@ -80,7 +80,7 @@ classes_name = [i[1] for i in list(jf.values())]
 img_path_list = glob.glob('example_imgs/*.*')
 img_path = np.random.choice(img_path_list,1)[0]
 '''
-res5c_branch2c is the name of the last convolutional layer in ResNet50
+res5c_branch2c is the name of the last convolution layer in ResNet50
 '''
 gradcam(model, img_path, classes_name, con_layer_name = 'res5c_branch2c', alpha = 0.5)
 ```
