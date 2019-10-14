@@ -3,7 +3,7 @@ An implement gadient class activation mapping by keras.
 
 Code reference : https://tinyurl.com/y4bad2gd
 
-Make sure to chage `con_layer_name argument` in `gradcam` function.
+Make sure to change `con_layer_name argument` in `gradcam` function for different models.
 
 ```python
 import tensorflow.keras.backend as K
